@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Despedida de Soltero</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PORTADA -->
+    <section class="inicio">
+
+        <div class="contenido">
+
+            <p class="pequeno">ESTÁS INVITADO A</p>
+
+            <h1>DESPEDIDA<br>DE SOLTERO</h1>
+
+            <p class="fecha">31 DE OCTUBRE · 2026</p>
+
+            <p class="descripcion">
+                Una noche para celebrar, reír y disfrutar
+                antes del gran día.
+            </p>
+
+            <a href="#registro" class="boton">
+                CONFIRMAR ASISTENCIA
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+    <section class="informacion">
+
+        <div class="tarjeta">
+            <div class="icono">📅</div>
+            <h2>Fecha</h2>
+            <p>Sábado 31 de octubre de 2026</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">🕘</div>
+            <h2>Hora</h2>
+            <p>9:00 PM</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">📍</div>
+            <h2>Lugar</h2>
+            <p>
+                La Quinta de Alí<br>
+                Santiago, Nuevo León
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- GALERÍA -->
+    <section class="galeria">
+
+        <p class="pequeno">LA NOCHE NOS ESPERA</p>
+
+        <h2>QUE COMIENCE LA FIESTA</h2>
+
+        <div class="imagenes">
+
+            <img
+                src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1000&q=80"
+                alt="Fiesta">
+
+            <img
+                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80"
+                alt="Celebración">
+
+            <img
+                src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=80"
+                alt="Fiesta con amigos">
+
+        </div>
+
+    </section>
+
+
+    <!-- UBICACIÓN -->
+    <section class="ubicacion">
+
+        <p class="pequeno">UBICACIÓN</p>
+
+        <h2>LA QUINTA DE ALÍ</h2>
+
+        <p>Santiago, Nuevo León</p>
+
+        <a
+            href="https://www.google.com/maps/search/?api=1&query=La%20Quinta%20de%20Al%C3%AD%2C%20Santiago%2C%20Nuevo%20Le%C3%B3n"
+            target="_blank"
+            class="boton">
+
+            📍 VER EN GOOGLE MAPS
+
+        </a>
+
+    </section>
+
+
+    <!-- REGISTRO -->
+    <section class="registro" id="registro">
+
+        <p class="pequeno">NO FALTES</p>
+
+        <h2>CONFIRMA TU ASISTENCIA</h2>
+
+        <p>
+            Registra tus datos para confirmar tu lugar.
+        </p>
+
+        <form id="formulario">
+
+            <label for="nombre">
+                Nombre completo
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Escribe tu nombre"
+                required>
+
+
+            <label for="telefono">
+                Teléfono
+            </label>
+
+            <input
+                type="tel"
+                id="telefono"
+                placeholder="Tu número de teléfono"
+                required>
+
+
+            <label for="asistencia">
+                ¿Vas a asistir?
+            </label>
+
+            <select id="asistencia" required>
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+                <option value="Sí">
+                    Sí, ahí estaré 🍻
+                </option>
+
+                <option value="No">
+                    No podré asistir
+                </option>
+
+            </select>
+
+
+            <button type="submit" class="boton">
+                CONFIRMAR
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+    </section>
+
+
+    <!-- PIE -->
+    <footer>
+
+        <p>
+            🍻 NOS VEMOS EL 31 DE OCTUBRE 🍻
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
